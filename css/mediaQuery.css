@@ -1,0 +1,28 @@
+/* mobile-first base covers up to 767px */
+
+/* ≥ 768px: tablets and up */
+@media (min-width: 768px) {
+    .menu-toggle {
+        display: none;
+    }
+
+    .logo h1 {
+        font-size: 1.75rem;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 1.5rem;
+    }
+}
+
+/* ≥ 1024px: desktops */
+@media (min-width: 1024px) {
+    .container {
+        width: 85%;
+    }
+
+    .product-list {
+        gap: 2.5rem;
+    }
+}
